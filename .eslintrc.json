@@ -29,7 +29,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "max-classes-per-file": "off",
     "no-useless-constructor": "off",
-    "isolatedModules": false,
+    "isolatedModules": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
