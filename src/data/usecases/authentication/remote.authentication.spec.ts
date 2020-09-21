@@ -9,7 +9,8 @@ class RemoteAuthentication {
   ) {}
 
   async auth(): Promise<void> {
-    return Promise.resolve();
+    const { httpPostClient, url } = this;
+    await httpPostClient(url);
   }
 }
 
