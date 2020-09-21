@@ -27,6 +27,9 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "max-classes-per-file": "off",
+    "no-useless-constructor": "off",
+    "isolatedModules": false,
     "import/extensions": [
       "error",
       "ignorePackages",
