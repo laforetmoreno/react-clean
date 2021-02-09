@@ -1,4 +1,4 @@
-import { HttpPostClient } from 'data/interfaces/httpPostClient';
+import { HttpPostClient } from 'data/interfaces/http/httpPostClient';
 
 export class HttpPostClientSpy implements HttpPostClient {
   url?: string;

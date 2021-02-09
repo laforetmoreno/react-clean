@@ -8,7 +8,6 @@ type SutTypes = {
 
 const makeSut = (url = 'any_url'): SutTypes => {
   const httpPostClientSpy = new HttpPostClientSpy();
-  // sut, o que esta sendo testado no momento
   const sut = new RemoteAuthentication(url, httpPostClientSpy);
 
   return {
