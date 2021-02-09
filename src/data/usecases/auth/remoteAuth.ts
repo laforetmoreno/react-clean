@@ -1,4 +1,4 @@
-import { HttpPostClient } from '../../interfaces';
+import { HttpPostClient } from '../../interfaces/httpPostClient';
 
 export class RemoteAuthentication {
   constructor(

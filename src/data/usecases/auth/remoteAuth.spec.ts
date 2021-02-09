@@ -1,5 +1,5 @@
 import { RemoteAuthentication } from './remoteAuth';
-import { HttpPostClientSpy } from '../../mocks';
+import { HttpPostClientSpy } from '../../mocks/httpClient';
 
 type SutTypes = {
   sut: RemoteAuthentication;
