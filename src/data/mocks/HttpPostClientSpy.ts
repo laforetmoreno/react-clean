@@ -1,4 +1,4 @@
-import { HttpPostClient, HttpPostParams } from 'data/interfaces/http/httpPostClient';
+import { HttpPostClient, HttpPostParams } from '@data/interfaces/http/httpPostClient';
 
 export type BodyType = {
 

@@ -1,4 +1,4 @@
-import { BodyType } from '../../mocks/HttpPostClientSpy';
+import { BodyType } from '@data/mocks/HttpPostClientSpy';
 
 export type HttpPostParams = {
   url: string
